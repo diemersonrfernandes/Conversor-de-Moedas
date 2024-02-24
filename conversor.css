@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    background-color: #8A51FC;
+}
+
+.logo-tipo{
+    width:300px;
+    padding-bottom: 20px;
+}
+
+.caixa-principal{
+    width: 400px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    background-color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-left:30px;
+    margin-left: 477px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(235, 235, 235);
+
+}
+
+.pai{
+    position: absolute;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    left: 237px;    
+}
+
+select{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.usa{
+    display: block;
+    
+}
+
+div{
+    display: block;
+    
+}
+
+select{
+    font-size: 15px;
+    width: 340px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+input{
+    font-size: 17px;
+    width: 340px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: none;
+    border: solid 1px rgb(114, 114, 114)
+    ;
+}
+
+button{
+    font-size: 25px;
+    background-color: #772FD3;
+    color: white;
+    margin-top: 20px;
+    width: 340px;
+    height: 40px;
+    border-radius: 3px;
+    
+}
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+.caixa-div-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.dolar-americano .real{
+    color: #777777;
+    font-size: 14px;
+}
+
+.valor-convertido1 .valor-convertido1{
+    color: #555555;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+vetor{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.usa{
+    margin-left: 20px;
+}
+
+.dolar-americano{
+    padding-left: 25px;
+}
